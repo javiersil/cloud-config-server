@@ -1,4 +1,4 @@
-package com.formacionbdi.springboot.app.config;
+package com.backend.springboot.app.config;
 
 
 class SpringbootServicioConfigServerApplicationTests {
