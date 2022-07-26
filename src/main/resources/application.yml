@@ -1,0 +1,15 @@
+
+server:
+  port: 8888          
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/javiersil/config-server.git
+          username: admin
+          password: password
